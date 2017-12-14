@@ -31,7 +31,7 @@
 " different.
 "
 " In order to have Vim use the same colours as gVim (the way this colour scheme
-" is intended), it is recommended that you define the basic 16 colours in your
+" is intended) , it is recommended that you define the basic 16 colours in your
 " terminal.
 "
 " For Linux users (rxvt-unicode, xterm):

@@ -25,7 +25,7 @@ function get_pwd(){
 }
 
 # Determine the time since last commit. If branch is clean,
-# use a neutral color, otherwise colors will vary according to time.
+# use a neutral color , otherwise colors will vary according to time.
 function git_time_since_commit() {
     if git rev-parse --git-dir > /dev/null 2>&1; then
         # Only proceed if there is actually a commit.

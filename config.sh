@@ -4,5 +4,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 cp -rf hybrid_material.vim ~/.vim/colors
 cp -rf .zshrc ~/
 cp -rf .vimrc ~/
-cp -rf nt9.zsh-theme $ZSH_CUSTOM/
+cp  nt9.zsh-theme $ZSH_CUSTOM/
 open Solarized\ Dark.itermcolors
