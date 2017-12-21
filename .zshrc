@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=~/.oh-my-zsh
+export ZSH=/Users/nschwarz/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -89,6 +89,8 @@ alias gcc42='gcc -Wall -Werror -Wextra'
 
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
+alias lo='cd ~/Documents && ./lockscreen'
+
 alias mk ='make'
 
 alias oslogout='osascript -e 'tell application "System Events" to log out''
@@ -128,5 +130,4 @@ alias 42FileChecker='bash ~/42FileChecker/42FileChecker.sh'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval $(thefuck --alias)
-export PAGER=vimpager
-export PATH=~/.brew/bin:~/.brew/bin:~/.brew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/Users/nschwarz/.brew/bin:/Users/nschwarz/.brew/bin:/Users/nschwarz/.brew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/VMware Fusion.app/Contents/Public/:/usr/local/munki:/Library/TeX/texbin
