@@ -97,7 +97,17 @@ alias spec='open -a Spectacle'
 
 alias flux='sh ~/Documents/42cli/fix_flux.sh && open -a Flux'
 
+alias 'wordy=wc -w * | sort | tail -n10' # sort files in current directory by the number of words they contain
+
+
+
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
 alias 42FileChecker='bash ~/42FileChecker/42FileChecker.sh'
+
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+alias grep='grep --color'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
