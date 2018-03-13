@@ -77,6 +77,8 @@ man() {
 MAIL="nschwarz@student.42.fr"
 export MAIL
 
+alias gam='git commit -am'
+
 alias cd42='cd ~/Documents/projets'
 
 alias newmakefile='cp ~/Documents/Makefile ./'
@@ -99,6 +101,11 @@ alias flux='sh ~/Documents/42cli/fix_flux.sh && open -a Flux'
 
 alias 'wordy=wc -w * | sort | tail -n10' # sort files in current directory by the number of words they contain
 
+alias apti="sudo apt-get install"
+alias aptr="sudo apt-get remove"
+alias apts="sudo apt-cache search"
+alias aptu="sudo apt-get update \
+	                && sudo apt-get upgrade"
 
 
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
