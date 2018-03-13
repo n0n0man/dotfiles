@@ -5,4 +5,7 @@ sudo cp -rf hybrid_material.vim ~/.vim/colors
 sudo cp -rf .zshrc ~/
 sudo cp -rf .vimrc ~/
 sudo cp -rf nt9.zsh-theme ~/.oh-my-zsh/custom/
-open Solarized\ Dark.itermcolors
+if [ uname = Darwin ]
+then
+	open Solarized\ Dark.itermcolors
+fi
